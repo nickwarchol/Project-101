@@ -1,0 +1,120 @@
+/*Global */
+*{
+    margin:0;
+
+}
+body{
+    background-color:#dedede;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 300;
+    color:lightseagreen;
+    margin: 40px 0 40px 0;
+}
+
+p{
+    line-height: 2;
+}
+/* nav */
+nav{
+    background-color: lightgrey;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color:rgb(34, 33, 33)4, 33, 33;
+    font-size: 18px;
+    font-weight:700;
+}
+/*header*/
+header{
+    height: 400px;
+    background-image: url(../hero.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: lightseagreen;
+    color:white;
+    padding: 8px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius:5px;
+    font-size: 16px;
+}
+
+/*services section*/
+.container{
+    background-color:white;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.icon-container{
+    background-color: #e4d50b;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+}
+
+.icon-container i{
+    font-size: 24px;
+}
+
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+}
+.service-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+form{
+    background-color:gray;
+    color:white;
+    max-width: 800px;
+    margin:0 auto;/* top-bottom */
+    padding:20px;
+    border-radius:10px;
+}
+input{
+    width: 50%;
+    height: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+}
+label{
+    font-size: 18px;
+}
+
+
+
